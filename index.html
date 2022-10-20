@@ -1,0 +1,49 @@
+<html>
+<head>  
+<link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript">
+</script>
+        
+</head>
+<body class="body_backgorund">
+<button id="save" onclick = "save()" > Save </button>
+
+<button id="clear" onclick = "clear_canvas()"> clear </button>
+<button id = "erase" onclick = "toggle_erase()"> erase </button>
+<button id= "pencil" onclick = "toggle_pencil()"> Pencil  </button>
+<button id = "Switch" onclick = "toggle_function()"> Switch Mode </button>
+<label for="color"> Choose a color </label>  
+<select id="colorsi" onchange = "sel()">
+<option value ="purple" id = "purpy"> Purple </option>
+<option value = "orange" id = "orngy">  Orange </option>
+<option value = "yellow" id = "yelly"> yellow </option>
+<option value = "pink" id = "pinky">  pink  </option>
+<option value = "blue" id = "blorny"> Blue </option>
+<option value = "black"> Black </option>
+<option value = "red"> Red </option>
+<option value = "aqua"> Aqua </option>
+<option value = "#f0fff0">  Mint  </option>
+</select> 
+<hr>
+<label id="strokey" onchange = "frick()">  
+<option value ="">  </option>
+<option value ="">  </option>
+<option value ="">  </option>
+<option value ="">  </option>
+<option value ="">  </option>
+</label>
+
+
+<div align="center">
+<h1>Paint</h1>
+
+    <canvas id="myCanvas" width="900" height="700"></canvas>
+        <br><br >
+
+<!--Additional activity -->
+
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
